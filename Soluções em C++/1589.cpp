@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+    int n;
+    unsigned int r1, r2;
+    cin >> n;
+    while(n--){
+        cin >> r1 >> r2;
+
+        cout << r1 + r2 << endl;
+    }
+
+    return 0;
+}
